@@ -1,2 +1,0 @@
-dotnet ef migrations add InitialCreate --project CorePlatform.Services.Infrastructure --startup-project CorePlatform.Services
-dotnet ef database update --project CorePlatform.Services.Infrastructure --startup-project CorePlatform.Services
