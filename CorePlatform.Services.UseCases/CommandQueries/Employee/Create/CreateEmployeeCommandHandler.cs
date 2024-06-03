@@ -23,6 +23,8 @@ namespace CorePlatform.Services.UseCases.CommandQueries.Employee.Create
                                 request.dateofBirth, request.netSalary, request.dateOfJoining);
 
 
+            employee.Joined(request.dateOfJoining);
+
             _repository.Add(employee);
             await _unitOfWork.SaveChangesAsync();
 

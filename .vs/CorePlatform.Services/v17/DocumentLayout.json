@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C39391D-609E-43B4-9C3B-4219790D43B4}|CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services.infrastructure\\infrastructureserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C39391D-609E-43B4-9C3B-4219790D43B4}|CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj|solutionrelative:coreplatform.services.infrastructure\\infrastructureserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C39391D-609E-43B4-9C3B-4219790D43B4}|CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services.infrastructure\\repository\\cachedemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C39391D-609E-43B4-9C3B-4219790D43B4}|CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj|solutionrelative:coreplatform.services.infrastructure\\repository\\cachedemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C39391D-609E-43B4-9C3B-4219790D43B4}|CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services.infrastructure\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C39391D-609E-43B4-9C3B-4219790D43B4}|CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj|solutionrelative:coreplatform.services.infrastructure\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C39391D-609E-43B4-9C3B-4219790D43B4}|CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C39391D-609E-43B4-9C3B-4219790D43B4}|CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj|solutionrelative:coreplatform.services.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C210FFCE-2D64-4130-9C56-C5C3E5D03EB0}|CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services.core\\abstraction\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C210FFCE-2D64-4130-9C56-C5C3E5D03EB0}|CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj|solutionrelative:coreplatform.services.core\\abstraction\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382F8731-0472-4390-A82C-77CA2010B714}|CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services.usecases\\commandqueries\\employee\\create\\createemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382F8731-0472-4390-A82C-77CA2010B714}|CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj|solutionrelative:coreplatform.services.usecases\\commandqueries\\employee\\create\\createemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382F8731-0472-4390-A82C-77CA2010B714}|CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services.usecases\\commandqueries\\employee\\query\\employeequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382F8731-0472-4390-A82C-77CA2010B714}|CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj|solutionrelative:coreplatform.services.usecases\\commandqueries\\employee\\query\\employeequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382F8731-0472-4390-A82C-77CA2010B714}|CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services.usecases\\commandqueries\\employee\\query\\employeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382F8731-0472-4390-A82C-77CA2010B714}|CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj|solutionrelative:coreplatform.services.usecases\\commandqueries\\employee\\query\\employeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C39391D-609E-43B4-9C3B-4219790D43B4}|CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services.infrastructure\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C39391D-609E-43B4-9C3B-4219790D43B4}|CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj|solutionrelative:coreplatform.services.infrastructure\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C210FFCE-2D64-4130-9C56-C5C3E5D03EB0}|CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services.core\\employee\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C210FFCE-2D64-4130-9C56-C5C3E5D03EB0}|CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj|solutionrelative:coreplatform.services.core\\employee\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071E524D-32E7-43FA-B7B7-70243B3AD659}|CorePlatform.Services\\CorePlatform.Services.csproj|c:\\users\\aymitra\\source\\repos\\coreplatform.services\\coreplatform.services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071E524D-32E7-43FA-B7B7-70243B3AD659}|CorePlatform.Services\\CorePlatform.Services.csproj|solutionrelative:coreplatform.services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services.Infrastructure\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\ApplicationDBContext.cs",
+              "RelativeToolTip": "CorePlatform.Services.Infrastructure\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T11:22:56.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateEmployeeCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Create\\CreateEmployeeCommandHandler.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Create\\CreateEmployeeCommandHandler.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Create\\CreateEmployeeCommandHandler.cs",
+              "RelativeToolTip": "CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Create\\CreateEmployeeCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T11:21:15.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Core\\Abstraction\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services.Core\\Abstraction\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Core\\Abstraction\\IUnitOfWork.cs",
+              "RelativeToolTip": "CorePlatform.Services.Core\\Abstraction\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T11:15:53.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Query\\EmployeeQueryHandler.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Query\\EmployeeQueryHandler.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Query\\EmployeeQueryHandler.cs",
+              "RelativeToolTip": "CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Query\\EmployeeQueryHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:41:58.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "CorePlatform.Services.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:34:53.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CachedEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\Repository\\CachedEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services.Infrastructure\\Repository\\CachedEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\Repository\\CachedEmployeeRepository.cs",
+              "RelativeToolTip": "CorePlatform.Services.Infrastructure\\Repository\\CachedEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:21:35.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InfrastructureServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\InfrastructureServiceExtensions.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services.Infrastructure\\InfrastructureServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\InfrastructureServiceExtensions.cs",
+              "RelativeToolTip": "CorePlatform.Services.Infrastructure\\InfrastructureServiceExtensions.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T11:10:29.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeQuery.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Query\\EmployeeQuery.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Query\\EmployeeQuery.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Query\\EmployeeQuery.cs",
+              "RelativeToolTip": "CorePlatform.Services.UseCases\\CommandQueries\\Employee\\Query\\EmployeeQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T11:20:56.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services.Infrastructure\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\Repository\\Repository.cs",
+              "RelativeToolTip": "CorePlatform.Services.Infrastructure\\Repository\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:34:54.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Core\\Employee\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services.Core\\Employee\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Core\\Employee\\IEmployeeRepository.cs",
+              "RelativeToolTip": "CorePlatform.Services.Core\\Employee\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T11:09:47.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services\\Program.cs",
+              "RelativeDocumentMoniker": "CorePlatform.Services\\Program.cs",
+              "ToolTip": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services\\Program.cs",
+              "RelativeToolTip": "CorePlatform.Services\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:32:30.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

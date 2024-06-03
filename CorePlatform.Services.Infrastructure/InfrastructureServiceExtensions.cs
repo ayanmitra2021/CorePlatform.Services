@@ -45,7 +45,8 @@ namespace CorePlatform.Services.Infrastructure
 
             #region Repositories Registration
 
-            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<EmployeeRepository>();
+            services.AddScoped<IEmployeeRepository, CachedEmployeeRepository>();
 
             #endregion
 

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CorePlatform.Services.Infrastructure.Repository
 {
-    internal abstract class Repository<TEntity>
+    public abstract class Repository<TEntity>
     where TEntity : EntityBase
     {
         protected readonly ApplicationDBContext _db;

@@ -38,6 +38,8 @@ ConfigureMediatR();
 
 builder.Services.AddInfrastructureServices(builder.Configuration, microsoftLogger);
 
+builder.Services.AddMemoryCache();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -99,3 +101,4 @@ void ConfigureMediatR()
     });
 
 }
+
