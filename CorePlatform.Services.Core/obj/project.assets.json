@@ -304,11 +304,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj",
+      "projectUniqueName": "C:\\Users\\aymitra\\repo\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj",
       "projectName": "CorePlatform.Services.Core",
-      "projectPath": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj",
+      "projectPath": "C:\\Users\\aymitra\\repo\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj",
       "packagesPath": "C:\\Users\\aymitra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aymitra\\source\\repos\\CorePlatform.Services\\CorePlatform.Services.Core\\obj\\",
+      "outputPath": "C:\\Users\\aymitra\\repo\\CorePlatform.Services\\CorePlatform.Services.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
