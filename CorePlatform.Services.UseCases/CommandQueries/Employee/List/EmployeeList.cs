@@ -8,5 +8,5 @@ using System.Threading.Tasks;
 
 namespace CorePlatform.Services.UseCases.CommandQueries.Employee.List
 {
-    public record EmployeeList() : IRequest<ResultInfo<List<EmployeeResponseDTO>>>;
+    public record EmployeeList() : IRequest<ResultInfo<List<EmployeeListResponseDTO>>>;
 }

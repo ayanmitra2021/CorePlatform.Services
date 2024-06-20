@@ -63,3 +63,16 @@ C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\refint\CorePlatform.Services.Core.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\CorePlatform.Services.Core.pdb
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\ref\CorePlatform.Services.Core.dll
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\bin\Debug\net8.0\CorePlatform.Services.Core.deps.json
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\bin\Debug\net8.0\CorePlatform.Services.Core.dll
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\bin\Debug\net8.0\CorePlatform.Services.Core.pdb
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\CorePlatform.Services.Core.csproj.AssemblyReference.cache
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\CorePlatform.Services.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\CorePlatform.Services.Core.AssemblyInfoInputs.cache
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\CorePlatform.Services.Core.AssemblyInfo.cs
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\CorePlatform.Services.Core.csproj.CoreCompileInputs.cache
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\CorePlatform.Services.Core.sourcelink.json
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\CorePlatform.Services.Core.dll
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\refint\CorePlatform.Services.Core.dll
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\CorePlatform.Services.Core.pdb
+C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Core\obj\Debug\net8.0\ref\CorePlatform.Services.Core.dll

@@ -5,7 +5,7 @@ using MediatR;
 
 namespace CorePlatform.Services.UseCases.CommandQueries.Employee.List
 {
-    public class EmployeeListHandler : IRequestHandler<EmployeeList, ResultInfo<List<EmployeeResponseDTO>>>
+    public class EmployeeListHandler : IRequestHandler<EmployeeList, ResultInfo<List<EmployeeListResponseDTO>>>
     {
         private readonly ISqlConnectionFactory _sqlConnectionFactory;
 
@@ -14,18 +14,18 @@ namespace CorePlatform.Services.UseCases.CommandQueries.Employee.List
             _sqlConnectionFactory = sqlConnectionFactory;
         }
 
-        public async Task<ResultInfo<List<EmployeeResponseDTO>>> Handle(EmployeeList request, CancellationToken cancellationToken)
+        public async Task<ResultInfo<List<EmployeeListResponseDTO>>> Handle(EmployeeList request, CancellationToken cancellationToken)
         {
             using (var connection = _sqlConnectionFactory.CreateConnection())
             {
                 var query = @"SELECT TOP 15
-                                [Id],[FirstName],[LastName],[Gender],[DateOfBirth],[NetSalary],
-                                [EmploymentStatus],[DateOfJoining], [TrainingCompleteDate],[RetirementDate],[ResignationDate] 
+                                [FirstName],[LastName],[Gender],[DateOfBirth],[NetSalary],
+                                [EmploymentStatus],[DateOfJoining] 
                             FROM 
                                 [Employee]";
-                var employee = await connection.QueryAsync<EmployeeResponseDTO>(query);
+                var employee = await connection.QueryAsync<EmployeeListResponseDTO>(query);
 
-                return ResultInfo<List<EmployeeResponseDTO>>.Success(employee.ToList());
+                return ResultInfo<List<EmployeeListResponseDTO>>.Success(employee.ToList());
             }
 
         }

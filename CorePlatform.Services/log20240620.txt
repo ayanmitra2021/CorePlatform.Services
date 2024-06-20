@@ -42,3 +42,320 @@ INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
 VALUES (N'20240620061213_InitialCreate', N'8.0.6');
 2024-06-20 13:26:14.198 +05:30 [INF] Registered 3 endpoints in 2,282 milliseconds.
 2024-06-20 13:26:14.223 +05:30 [ERR] The route "GET:/Employee/{employeeId:int}" has 2 endpoints registered to handle requests!
+2024-06-20 15:10:42.932 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:10:43.066 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:19:02.477 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:28:55.098 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:28:55.216 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:29:18.946 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:29:19.082 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:29:31.132 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:30:24.941 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:32:57.117 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:35:54.515 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:35:54.837 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:35:54.857 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-20 15:35:54.861 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:35:54.914 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-06-20 15:35:54.917 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:35:54.920 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-20 15:35:54.933 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-06-20 15:35:54.950 +05:30 [INF] Applying migration '20240620095919_InitialCreate'.
+2024-06-20 15:35:54.969 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240620095919_InitialCreate', N'8.0.6');
+2024-06-20 15:36:46.056 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:36:46.144 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:37:26.089 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:37:26.386 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:37:26.406 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-20 15:37:26.410 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:37:26.414 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-20 15:37:26.431 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-06-20 15:37:26.443 +05:30 [INF] Applying migration '20240620100646_InitialCreate'.
+2024-06-20 15:37:26.463 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240620100646_InitialCreate', N'8.0.6');
+2024-06-20 15:38:30.748 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:38:30.865 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:38:53.076 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:38:53.400 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:38:53.430 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-20 15:38:53.434 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:38:53.496 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-06-20 15:38:53.498 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:38:53.501 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-20 15:38:53.508 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-06-20 15:38:53.522 +05:30 [INF] Applying migration '20240620100831_InitialCreate'.
+2024-06-20 15:38:53.549 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Employee] (
+    [Id] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Gender] int NOT NULL,
+    [DateOfBirth] date NOT NULL,
+    [NetSalary] decimal(18,2) NOT NULL,
+    [EmploymentStatus] int NOT NULL,
+    [DateOfJoining] date NOT NULL,
+    [TrainingCompleteDate] date NULL,
+    [RetirementDate] date NULL,
+    [ResignationDate] date NULL,
+    CONSTRAINT [PK_Employee] PRIMARY KEY ([Id])
+);
+2024-06-20 15:38:53.554 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240620100831_InitialCreate', N'8.0.6');
+2024-06-20 15:55:05.344 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:55:05.432 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:55:17.352 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 15:55:17.789 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:55:17.812 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-20 15:55:17.818 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:55:17.900 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-06-20 15:55:17.903 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 15:55:17.909 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-20 15:55:17.917 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-06-20 15:55:17.938 +05:30 [INF] Applying migration '20240620102506_InitialCreate'.
+2024-06-20 15:55:17.966 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Employee] (
+    [Id] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Gender] int NOT NULL,
+    [DateOfBirth] date NOT NULL,
+    [NetSalary] decimal(18,2) NOT NULL,
+    [EmploymentStatus] int NOT NULL,
+    [DateOfJoining] date NOT NULL,
+    [TrainingCompleteDate] date NULL,
+    [RetirementDate] date NULL,
+    [ResignationDate] date NULL,
+    CONSTRAINT [PK_Employee] PRIMARY KEY ([Id])
+);
+2024-06-20 15:55:17.972 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240620102506_InitialCreate', N'8.0.6');
+2024-06-20 16:00:13.141 +05:30 [INF] Registered 3 endpoints in 647 milliseconds.
+2024-06-20 16:00:14.225 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 16:00:14.613 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 16:00:14.638 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-06-20 16:00:14.729 +05:30 [INF] Now listening on: http://localhost:5141
+2024-06-20 16:00:14.736 +05:30 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-06-20 16:00:14.808 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-20 16:00:14.810 +05:30 [INF] Hosting environment: Development
+2024-06-20 16:00:14.811 +05:30 [INF] Content root path: C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services
+2024-06-20 16:00:18.779 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger - null null
+2024-06-20 16:00:19.092 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger - 302 0 null 317.9314ms
+2024-06-20 16:00:19.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - null null
+2024-06-20 16:00:19.257 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 null text/html; charset=utf-8 151.1103ms
+2024-06-20 16:00:19.337 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui.css - null null
+2024-06-20 16:00:19.347 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui-bundle.js - null null
+2024-06-20 16:00:19.347 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-20 16:00:19.347 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.css - null null
+2024-06-20 16:00:19.351 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-20 16:00:19.370 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - null null
+2024-06-20 16:00:19.382 +05:30 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2024-06-20 16:00:19.386 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 36.6631ms
+2024-06-20 16:00:19.389 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.css - 200 218 text/css 42.5142ms
+2024-06-20 16:00:19.426 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-20 16:00:19.428 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-20 16:00:19.445 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui.css - 200 151213 text/css 107.9407ms
+2024-06-20 16:00:19.446 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui-standalone-preset.js - 200 230642 text/javascript 99.049ms
+2024-06-20 16:00:19.487 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-20 16:00:19.489 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui-bundle.js - 200 1385018 text/javascript 142.0096ms
+2024-06-20 16:00:19.522 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 152.6633ms
+2024-06-20 16:00:19.955 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - null null
+2024-06-20 16:00:20.175 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/favicon-32x32.png - null null
+2024-06-20 16:00:20.186 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-20 16:00:20.206 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/favicon-32x32.png - 200 628 image/png 30.9259ms
+2024-06-20 16:00:21.198 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1242.4961ms
+2024-06-20 16:00:58.276 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/Employee - null null
+2024-06-20 16:00:58.282 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-20 16:00:58.285 +05:30 [INF] Executing endpoint 'HTTP: GET /Employee'
+2024-06-20 16:00:58.333 +05:30 [INF] Handling EmployeeList
+2024-06-20 16:01:07.720 +05:30 [INF] Executed endpoint 'HTTP: GET /Employee'
+2024-06-20 16:01:07.726 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A parameterless default constructor or one matching signature (System.Int32 Id, System.String FirstName, System.String LastName, System.Int32 Gender, System.DateTime DateOfBirth, System.Decimal NetSalary, System.Int32 EmploymentStatus, System.DateTime DateOfJoining, System.DateTime TrainingCompleteDate, System.DateTime RetirementDate, System.DateTime ResignationDate) is required for CorePlatform.Services.UseCases.CommandQueries.Employee.EmployeeResponseDTO materialization
+   at Dapper.SqlMapper.GenerateDeserializerFromMap(Type type, DbDataReader reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing, ILGenerator il) in /_/Dapper/SqlMapper.cs:line 3473
+   at Dapper.SqlMapper.GetTypeDeserializerImpl(Type type, DbDataReader reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) in /_/Dapper/SqlMapper.cs:line 3304
+   at Dapper.SqlMapper.TypeDeserializerCache.GetReader(DbDataReader reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) in /_/Dapper/SqlMapper.TypeDeserializerCache.cs:line 151
+   at Dapper.SqlMapper.TypeDeserializerCache.GetReader(Type type, DbDataReader reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) in /_/Dapper/SqlMapper.TypeDeserializerCache.cs:line 50
+   at Dapper.SqlMapper.GetTypeDeserializer(Type type, DbDataReader reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) in /_/Dapper/SqlMapper.cs:line 3258
+   at Dapper.SqlMapper.GetDeserializer(Type type, DbDataReader reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) in /_/Dapper/SqlMapper.cs:line 1945
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 442
+   at CorePlatform.Services.UseCases.CommandQueries.Employee.List.EmployeeListHandler.Handle(EmployeeList request, CancellationToken cancellationToken) in C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.UseCases\CommandQueries\Employee\List\EmployeeListHandler.cs:line 26
+   at CorePlatform.Services.Infrastructure.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Infrastructure\Behaviors\ValidationBehavior.cs:line 25
+   at CorePlatform.Services.Infrastructure.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services.Infrastructure\Behaviors\LoggingBehavior.cs:line 32
+   at CorePlatform.Services.Employee.ListEmployee.HandleAsync(CancellationToken cancellationToken) in C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services\Employee\ListEmployee.cs:line 21
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-20 16:01:07.782 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/Employee - 500 null text/plain; charset=utf-8 9506.0277ms
+2024-06-20 16:19:12.373 +05:30 [INF] Registered 3 endpoints in 412 milliseconds.
+2024-06-20 16:19:12.812 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 16:19:13.197 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 16:19:13.232 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-06-20 16:19:13.316 +05:30 [INF] Now listening on: http://localhost:5141
+2024-06-20 16:19:13.321 +05:30 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-06-20 16:19:13.368 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-20 16:19:13.371 +05:30 [INF] Hosting environment: Development
+2024-06-20 16:19:13.372 +05:30 [INF] Content root path: C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services
+2024-06-20 16:19:17.472 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger - null null
+2024-06-20 16:19:17.767 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger - 302 0 null 296.6189ms
+2024-06-20 16:19:17.775 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - null null
+2024-06-20 16:19:17.917 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 null text/html; charset=utf-8 141.9335ms
+2024-06-20 16:19:18.168 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-20 16:19:18.197 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 29.1638ms
+2024-06-20 16:19:18.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - null null
+2024-06-20 16:19:18.483 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 174.4162ms
+2024-06-20 16:19:18.818 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - null null
+2024-06-20 16:19:19.822 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1003.206ms
+2024-06-20 16:19:26.876 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/Employee - null null
+2024-06-20 16:19:26.882 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-20 16:19:26.885 +05:30 [INF] Executing endpoint 'HTTP: GET /Employee'
+2024-06-20 16:19:26.936 +05:30 [INF] Handling EmployeeList
+2024-06-20 16:19:36.718 +05:30 [INF] Executed endpoint 'HTTP: GET /Employee'
+2024-06-20 16:19:36.728 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.DataException: Error parsing column 3 (DateOfBirth=4/19/1996 12:00:00 AM - DateTime)
+ ---> System.InvalidCastException: Invalid cast from 'System.DateTime' to 'System.DateOnly'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserialize04da9ea0-9cbf-489a-b519-a062eb22742d(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3928
+   at Deserialize04da9ea0-9cbf-489a-b519-a062eb22742d(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at CorePlatform.Services.UseCases.CommandQueries.Employee.List.EmployeeListHandler.Handle(EmployeeList request, CancellationToken cancellationToken)
+   at CorePlatform.Services.Infrastructure.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at CorePlatform.Services.Infrastructure.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at CorePlatform.Services.Employee.ListEmployee.HandleAsync(CancellationToken cancellationToken)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-20 16:19:36.761 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/Employee - 500 null text/plain; charset=utf-8 9884.2091ms
+2024-06-20 16:20:23.968 +05:30 [INF] Registered 3 endpoints in 532 milliseconds.
+2024-06-20 16:20:24.467 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 16:20:24.852 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 16:20:24.881 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-06-20 16:20:24.955 +05:30 [INF] Now listening on: http://localhost:5141
+2024-06-20 16:20:24.959 +05:30 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-06-20 16:20:25.008 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-20 16:20:25.010 +05:30 [INF] Hosting environment: Development
+2024-06-20 16:20:25.011 +05:30 [INF] Content root path: C:\Users\aymitra\source\repos\AJG\CorePlatform.Services\CorePlatform.Services
+2024-06-20 16:20:30.097 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger - null null
+2024-06-20 16:20:30.691 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger - 302 0 null 597.5195ms
+2024-06-20 16:20:30.765 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - null null
+2024-06-20 16:20:31.383 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 null text/html; charset=utf-8 617.4617ms
+2024-06-20 16:20:31.596 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - null null
+2024-06-20 16:20:31.600 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-20 16:20:31.612 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 12.729ms
+2024-06-20 16:20:32.119 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 523.7038ms
+2024-06-20 16:20:32.241 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - null null
+2024-06-20 16:20:34.277 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 2037.015ms
+2024-06-20 16:20:38.391 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5141/Employee - null null
+2024-06-20 16:20:38.400 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-20 16:20:38.403 +05:30 [INF] Executing endpoint 'HTTP: GET /Employee'
+2024-06-20 16:20:38.484 +05:30 [INF] Handling EmployeeList
+2024-06-20 16:20:51.907 +05:30 [INF] Handled EmployeeList with CorePlatform.Services.Core.Abstraction.Result.ResultInfo`1[System.Collections.Generic.List`1[CorePlatform.Services.UseCases.CommandQueries.Employee.EmployeeListResponseDTO]] in 13417 ms
+2024-06-20 16:20:51.965 +05:30 [INF] Executed endpoint 'HTTP: GET /Employee'
+2024-06-20 16:20:51.968 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5141/Employee - 200 null application/json 13577.2095ms

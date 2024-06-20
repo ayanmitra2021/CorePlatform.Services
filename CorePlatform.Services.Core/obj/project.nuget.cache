@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qf3rXYNouM8nAcnr3Fm6qHwG9IPZGTKQTF/xJwKavRlyl5WNxzcNmCWPD7LMj8CTt3tbqsRB0FA9FJlRPjNbhg==",
+  "dgSpecHash": "FayJMQvAcCB/iE8BdiSRplSiD1UQtUFpAXpvdutaSGG8ncU4zHkm/FPqueKgn9Asjf5PW6e81+WpyQRJyaf9mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aymitra\\repo\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj",
+  "projectFilePath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aymitra\\.nuget\\packages\\ardalis.guardclauses\\4.5.0\\ardalis.guardclauses.4.5.0.nupkg.sha512",
     "C:\\Users\\aymitra\\.nuget\\packages\\ardalis.smartenum\\8.0.0\\ardalis.smartenum.8.0.0.nupkg.sha512",

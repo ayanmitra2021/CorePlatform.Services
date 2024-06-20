@@ -1,0 +1,388 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services\\CorePlatform.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj",
+        "projectName": "CorePlatform.Services.Core",
+        "projectPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj",
+        "packagesPath": "C:\\Users\\aymitra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aymitra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj",
+        "projectName": "CorePlatform.Services.Infrastructure",
+        "projectPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\aymitra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aymitra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj": {
+                "projectPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj",
+        "projectName": "CorePlatform.Services.UseCases",
+        "projectPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj",
+        "packagesPath": "C:\\Users\\aymitra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aymitra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj": {
+                "projectPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services\\CorePlatform.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services\\CorePlatform.Services.csproj",
+        "projectName": "CorePlatform.Services",
+        "projectPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services\\CorePlatform.Services.csproj",
+        "packagesPath": "C:\\Users\\aymitra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aymitra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.Infrastructure\\CorePlatform.Services.Infrastructure.csproj"
+              },
+              "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj": {
+                "projectPath": "C:\\Users\\aymitra\\source\\repos\\AJG\\CorePlatform.Services\\CorePlatform.Services.UseCases\\CorePlatform.Services.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FastEndpoints": {
+              "target": "Package",
+              "version": "[5.26.0, )"
+            },
+            "FastEndpoints.Swagger": {
+              "target": "Package",
+              "version": "[5.26.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
