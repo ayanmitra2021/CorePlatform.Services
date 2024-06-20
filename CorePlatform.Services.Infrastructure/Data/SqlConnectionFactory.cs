@@ -1,4 +1,5 @@
 ﻿using CorePlatform.Services.UseCases.Abstraction.Data;
+using Microsoft.Data.SqlClient;
 using System.Data;
 
 namespace CorePlatform.Services.Infrastructure.Data
@@ -14,11 +15,10 @@ namespace CorePlatform.Services.Infrastructure.Data
 
         public IDbConnection CreateConnection()
         {
-            //var con = new (_connectionString);
-            //con.Open();
+            var con = new SqlConnection(_connectionString);
+            con.Open();
 
-            //return con;
-            throw new NotImplementedException();
+            return con;
         }
     }
 }

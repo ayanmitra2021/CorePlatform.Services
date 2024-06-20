@@ -601,10 +601,11 @@ C:\Users\aymitra\source\repos\CorePlatform.Services\CorePlatform.Services.UnitTe
 C:\Users\aymitra\source\repos\CorePlatform.Services\CorePlatform.Services.UnitTests\obj\Debug\net8.0\CorePlatform.Services.UnitTests.pdb
 C:\Users\aymitra\source\repos\CorePlatform.Services\CorePlatform.Services.UnitTests\obj\Debug\net8.0\CorePlatform.Services.UnitTests.genruntimeconfig.cache
 C:\Users\aymitra\source\repos\CorePlatform.Services\CorePlatform.Services.UnitTests\obj\Debug\net8.0\ref\CorePlatform.Services.UnitTests.dll
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_CorePlatform.Services.UnitTests
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\CoverletSourceRootsMapping_CorePlatform.Services.UnitTests
-C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\testhost.exe
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\testhost.dll
-C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\testhost.exe
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\CorePlatform.Services.UnitTests.deps.json
@@ -613,6 +614,7 @@ C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\CorePlatform.Services.UnitTests.pdb
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Ardalis.GuardClauses.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Ardalis.SmartEnum.dll
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Castle.Core.dll
@@ -628,6 +630,7 @@ C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -662,11 +665,11 @@ C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\NSubstitute.dll
-C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\NuGet.Frameworks.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\SQLitePCLRaw.core.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\System.Data.SqlClient.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
@@ -751,10 +754,9 @@ C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\linux-x64\native\libsqlite3.so
-C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\osx-x64\native\libsqlite3.dylib
-C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win7-x64\native\sqlite3.dll
-C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win7-x86\native\sqlite3.dll
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -775,6 +777,8 @@ C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
 C:\Users\aymitra\repo\CorePlatform.Services\CorePlatform.Services.UnitTests\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll

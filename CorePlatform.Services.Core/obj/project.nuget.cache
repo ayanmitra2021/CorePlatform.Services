@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yVO7jvLARH89EJlRckenoXcEsTpPjKssLDACgtQWd0oCHVqHd/6yoxLqeDNp4aj3RYu/s6ROtrxbnZXHnPA7bA==",
+  "dgSpecHash": "qf3rXYNouM8nAcnr3Fm6qHwG9IPZGTKQTF/xJwKavRlyl5WNxzcNmCWPD7LMj8CTt3tbqsRB0FA9FJlRPjNbhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\aymitra\\repo\\CorePlatform.Services\\CorePlatform.Services.Core\\CorePlatform.Services.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aymitra\\.nuget\\packages\\ardalis.guardclauses\\4.5.0\\ardalis.guardclauses.4.5.0.nupkg.sha512",
     "C:\\Users\\aymitra\\.nuget\\packages\\ardalis.smartenum\\8.0.0\\ardalis.smartenum.8.0.0.nupkg.sha512",
-    "C:\\Users\\aymitra\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\aymitra\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\aymitra\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\aymitra\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\aymitra\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"

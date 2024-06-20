@@ -1,0 +1,44 @@
+2024-06-20 11:42:12.092 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 11:42:12.203 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 11:42:51.527 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Employee'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-20 11:42:52.047 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 11:42:52.068 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-20 11:42:52.073 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 11:42:52.131 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-06-20 11:42:52.136 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-20 11:42:52.140 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-20 11:42:52.145 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-06-20 11:42:52.159 +05:30 [INF] Applying migration '20240620061213_InitialCreate'.
+2024-06-20 11:42:52.178 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Employee] (
+    [Id] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Gender] int NOT NULL,
+    [DateOfBirth] date NOT NULL,
+    [NetSalary] decimal(18,2) NOT NULL,
+    [EmploymentStatus] int NOT NULL,
+    [DateOfJoining] date NOT NULL,
+    [TrainingCompleteDate] date NULL,
+    [RetirementDate] date NULL,
+    [ResignationDate] date NULL,
+    CONSTRAINT [PK_Employee] PRIMARY KEY ([Id])
+);
+2024-06-20 11:42:52.184 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240620061213_InitialCreate', N'8.0.6');
+2024-06-20 13:26:14.198 +05:30 [INF] Registered 3 endpoints in 2,282 milliseconds.
+2024-06-20 13:26:14.223 +05:30 [ERR] The route "GET:/Employee/{employeeId:int}" has 2 endpoints registered to handle requests!

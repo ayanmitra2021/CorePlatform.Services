@@ -60,7 +60,7 @@
             },
             "MediatR": {
               "target": "Package",
-              "version": "[12.2.0, )"
+              "version": "[12.3.0, )"
             }
           },
           "imports": [
@@ -133,9 +133,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
             "MediatR": {
               "target": "Package",
-              "version": "[12.2.0, )"
+              "version": "[12.3.0, )"
             }
           },
           "imports": [

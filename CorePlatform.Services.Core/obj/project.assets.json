@@ -31,7 +31,7 @@
           }
         }
       },
-      "MediatR/12.2.0": {
+      "MediatR/12.3.0": {
         "type": "package",
         "dependencies": {
           "MediatR.Contracts": "[2.0.1, 3.0.0)",
@@ -137,19 +137,20 @@
         "lib/netstandard2.1/Ardalis.SmartEnum.xml"
       ]
     },
-    "MediatR/12.2.0": {
-      "sha512": "8TUFrHapKi6D74PhnSNEguRsH91HNGyP3R4ZQdgDorJgl9Wac5Prh0vA33QfrniAaS6L2xNNhc6vxzg+5AIbwA==",
+    "MediatR/12.3.0": {
+      "sha512": "DuXRw/qux2n7pTRPond4WK9XImO+30TZrGPCeOmjYIXDWokpjZQDFRsdZMoP0WqWU7inC4m0D+Zbu5dSc4z6NQ==",
       "type": "package",
-      "path": "mediatr/12.2.0",
+      "path": "mediatr/12.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "README.md",
         "gradient_128x128.png",
         "lib/net6.0/MediatR.dll",
         "lib/net6.0/MediatR.xml",
         "lib/netstandard2.0/MediatR.dll",
         "lib/netstandard2.0/MediatR.xml",
-        "mediatr.12.2.0.nupkg.sha512",
+        "mediatr.12.3.0.nupkg.sha512",
         "mediatr.nuspec"
       ]
     },
@@ -294,7 +295,7 @@
     "net8.0": [
       "Ardalis.GuardClauses >= 4.5.0",
       "Ardalis.SmartEnum >= 8.0.0",
-      "MediatR >= 12.2.0"
+      "MediatR >= 12.3.0"
     ]
   },
   "packageFolders": {
@@ -357,7 +358,7 @@
           },
           "MediatR": {
             "target": "Package",
-            "version": "[12.2.0, )"
+            "version": "[12.3.0, )"
           }
         },
         "imports": [
